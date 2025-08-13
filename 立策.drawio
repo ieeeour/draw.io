@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
-    <mxGraphModel dx="782" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="647" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -75,6 +75,11 @@
         <mxCell id="DsDt09lpi0ELnj3sCXhc-18" value="带控制器或IO扩展的指示灯" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#121212);labelBackgroundColor=light-dark(#FFFFFF,#7EBFC4);fillColor=#09555B;" parent="1" vertex="1">
           <mxGeometry x="757" y="673" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vzWPAY1WOLsokLNmOMUa-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#6F0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#121212);labelBackgroundColor=light-dark(#FFFFFF,#7EBFC4);endArrow=classic;fillColor=#a20025;" edge="1" parent="1" source="DsDt09lpi0ELnj3sCXhc-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006.7931034482758" y="673.0344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DsDt09lpi0ELnj3sCXhc-19" value="其他通讯设备" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#121212);labelBackgroundColor=light-dark(#FFFFFF,#7EBFC4);fillColor=#09555B;" parent="1" vertex="1">
           <mxGeometry x="947" y="673" width="120" height="60" as="geometry" />
         </mxCell>
@@ -86,6 +91,11 @@
         </mxCell>
         <mxCell id="DsDt09lpi0ELnj3sCXhc-21" value="工控板输出接口，如RS485,232.CAN等" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" parent="1" vertex="1">
           <mxGeometry x="757" y="564" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzWPAY1WOLsokLNmOMUa-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#6F0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#121212);labelBackgroundColor=light-dark(#FFFFFF,#7EBFC4);endArrow=classic;fillColor=#a20025;" edge="1" parent="1" source="DsDt09lpi0ELnj3sCXhc-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006.7931034482758" y="672.344827586207" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DsDt09lpi0ELnj3sCXhc-24" value="两路千兆网口" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" parent="1" vertex="1">
           <mxGeometry x="947" y="560" width="120" height="60" as="geometry" />
@@ -118,9 +128,6 @@
         </mxCell>
         <mxCell id="DsDt09lpi0ELnj3sCXhc-32" value="模组" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#121212);labelBackgroundColor=light-dark(#FFFFFF,#7EBFC4);fillColor=#09555B;" parent="1" vertex="1">
           <mxGeometry x="1344" y="384" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vzWPAY1WOLsokLNmOMUa-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.502;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6F0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#FFFFFF,#121212);labelBackgroundColor=light-dark(#FFFFFF,#7EBFC4);endArrow=classic;fillColor=#a20025;" edge="1" parent="1" source="DsDt09lpi0ELnj3sCXhc-24" target="DsDt09lpi0ELnj3sCXhc-19">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
